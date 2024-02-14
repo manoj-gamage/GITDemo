@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        ViewBag.Message = "Lahiru will come back";
         return View();
     }
 
